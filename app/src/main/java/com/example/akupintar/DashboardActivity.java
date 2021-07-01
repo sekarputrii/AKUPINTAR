@@ -43,7 +43,7 @@ public class DashboardActivity extends AppCompatActivity {
                 intent.setAction(Intent.ACTION_SEND);
                 intent.putExtra(Intent.EXTRA_TEXT, Constant.SHARE_CONTENT);
                 intent.setType("text/plain");
-                startActivity(Intent.createChooser(intent, "bagikan dengan : "));
+                startActivity(Intent.createChooser(intent, "Berbagi : "));
             }
         });
     }
